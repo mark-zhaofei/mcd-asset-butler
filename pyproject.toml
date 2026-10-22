@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcd-asset-butler"
+version = "1.0.0"
+description = "麦当劳积分 & 优惠券资产管家：资产体检、保值策略（EV/性价比）、一键执行与可视化报告"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "mark-zhaofei" }]
+keywords = ["mcdonalds", "mcp", "skill", "1024", "points", "coupon"]
+# 零第三方依赖：仅使用 Python 标准库
+dependencies = []
+
+[project.scripts]
+mcd-asset-butler = "mcd_asset_butler.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
