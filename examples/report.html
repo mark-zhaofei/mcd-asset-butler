@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang='zh-CN'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>麦麦资产体检报告</title><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+       background: #faf7f2; color: #2b2b2b; padding: 32px 20px; }
+.wrap { max-width: 920px; margin: 0 auto; }
+.header { background: linear-gradient(135deg, #da291c, #ff8a1e); color: #fff;
+          border-radius: 16px; padding: 28px 32px; margin-bottom: 20px; }
+.header h1 { font-size: 26px; margin-bottom: 6px; }
+.header p { opacity: .92; font-size: 13px; }
+.badge { display: inline-block; background: rgba(255,255,255,.22); border-radius: 999px;
+         padding: 2px 12px; font-size: 12px; margin-left: 8px; vertical-align: middle; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 20px; }
+.card { background: #fff; border-radius: 12px; padding: 16px 18px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+.card .label { font-size: 12px; color: #8a8a8a; margin-bottom: 6px; }
+.card .value { font-size: 22px; font-weight: 700; }
+.card .sub { font-size: 12px; color: #a0a0a0; margin-top: 4px; }
+.card.risk .value { color: #da291c; }
+section { background: #fff; border-radius: 12px; padding: 22px 24px; margin-bottom: 16px;
+          box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+h2 { font-size: 17px; margin-bottom: 14px; padding-left: 10px; border-left: 4px solid #da291c; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; color: #8a8a8a; font-weight: 500; padding: 8px 10px; border-bottom: 2px solid #f0ebe3; }
+td { padding: 9px 10px; border-bottom: 1px solid #f5f1ea; vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+.bar-wrap { background: #f3efe8; border-radius: 6px; height: 10px; overflow: hidden; min-width: 90px; }
+.bar { height: 100%; border-radius: 6px; background: linear-gradient(90deg, #ffc72c, #da291c); }
+.bar.blue { background: linear-gradient(90deg, #7db8ff, #3a7bd5); }
+.bar.green { background: linear-gradient(90deg, #9be15d, #00b894); }
+.tag { display: inline-block; font-size: 11px; border-radius: 4px; padding: 1px 7px; margin-left: 6px; }
+.tag.risk { background: #fdecea; color: #da291c; }
+.tag.ok { background: #e8f8ef; color: #00a060; }
+.tag.warn { background: #fff6e0; color: #b8860b; }
+.note { background: #fff8e6; border: 1px solid #ffe9b0; border-radius: 8px;
+        padding: 10px 14px; font-size: 13px; margin: 6px 0; }
+.timeline { margin: 10px 0; }
+.tl-row { display: flex; align-items: center; margin: 7px 0; font-size: 13px; }
+.tl-name { width: 260px; flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tl-track { flex: 1; background: #f3efe8; border-radius: 6px; height: 18px; position: relative; }
+.tl-fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 6px;
+           background: linear-gradient(90deg, #ffc72c, #da291c); }
+.tl-fill.far { background: linear-gradient(90deg, #b8e0ff, #3a7bd5); }
+.tl-days { width: 76px; text-align: right; flex-shrink: 0; color: #666; font-size: 12px; }
+.footer { text-align: center; color: #a8a8a8; font-size: 12px; margin-top: 24px; line-height: 1.8; }
+code { background: #f6f2eb; border-radius: 4px; padding: 1px 6px; font-size: 12px; }
+</style></head><body><div class='wrap'><div class='header'><h1>🍔 麦麦资产体检报告<span class='badge'>离线演示数据</span></h1><p>生成日期 2026-10-22 · 麦当劳积分 &amp; 优惠券资产一站式管理</p></div><div class='cards'><div class='card'><div class='label'>资产总价值</div><div class='value'>¥145.17</div><div class='sub'>券 6 张 + 积分 8,642</div></div><div class='card'><div class='label'>优惠券资产</div><div class='value'>¥58.75</div><div class='sub'>6 张可用</div></div><div class='card'><div class='label'>积分资产（100积分=¥1）</div><div class='value'>¥86.42</div><div class='sub'>冻结 0 · 奖品 2 件</div></div><div class='card risk'><div class='label'>⚠️ 7 天内过期风险</div><div class='value'>¥43.75</div><div class='sub'>占总资产 30.1%</div></div></div><section><h2>📋 行动建议</h2><div class='note'>⚠️ 有 3 张券将在 7 天内过期，合计 ¥23.75，建议按下方「临期券用法」尽快安排</div><div class='note'>⚠️ 2000 积分即将过期（≈ ¥20.00），建议优先使用「即将过期积分」再动可用存量</div><div class='note'>💡 当前积分商城兑换性价比高于直接抵扣，可优先兑换高性价比商品</div></section><section><h2>⏰ 过期时间线</h2><div class='timeline'><div class='tl-row'><div class='tl-name' title='麦麦省·圆筒冰淇淋立减6元券'>麦麦省·圆筒冰淇淋立减6元券<span class='tag risk'>券 · ¥6.00</span></div><div class='tl-track'><div class='tl-fill ' style='width:14%'></div></div><div class='tl-days'>2 天</div></div><div class='tl-row'><div class='tl-name' title='麦麦省·薯条（大）立减8元券'>麦麦省·薯条（大）立减8元券<span class='tag risk'>券 · ¥8.00</span></div><div class='tl-track'><div class='tl-fill ' style='width:21%'></div></div><div class='tl-days'>3 天</div></div><div class='tl-row'><div class='tl-name' title='麦麦省·板烧鸡腿堡半价券'>麦麦省·板烧鸡腿堡半价券<span class='tag warn'>券 · ¥9.75</span></div><div class='tl-track'><div class='tl-fill ' style='width:43%'></div></div><div class='tl-days'>6 天</div></div><div class='tl-row'><div class='tl-name' title='2,000 积分即将过期'>2,000 积分即将过期<span class='tag warn'>积分</span></div><div class='tl-track'><div class='tl-fill ' style='width:50%'></div></div><div class='tl-days'>7 天</div></div></div></section><section><h2>🧮 积分处置性价比（每 100 积分可换价值）</h2><table><tr><th style='width:34%'>处置方式</th><th style='width:26%'>性价比</th><th style='width:22%'>对比</th><th>说明</th></tr><tr><td>积分商城兑换（当前最优：麦乐送免配送费券）<span class='tag ok'>推荐</span></td><td><b>¥2.00</b></td><td><div class='bar-wrap'><div class='bar ' style='width:100%'></div></div></td><td>7 件在售商品中性价比最高：300 积分 ≈ ¥6.00</td></tr><tr><td>积分抽奖 · 麦麦好运轮</td><td><b>¥1.75</b></td><td><div class='bar-wrap'><div class='bar blue' style='width:88%'></div></div></td><td>单次 50 积分，期望回报 ¥0.88（最大贡献奖品：圆筒冰淇淋兑换券）</td></tr><tr><td>直接抵扣点餐</td><td><b>¥1.00</b></td><td><div class='bar-wrap'><div class='bar green' style='width:50%'></div></div></td><td>点餐时按 100 积分 = ¥1 直接抵扣，零门槛、零方差</td></tr></table><div class='note'>💡 当前最优：积分商城兑换（当前最优：麦乐送免配送费券）（每 100 积分 ≈ ¥2.00），风险提示：需要盯库存，心仪商品可能下架</div></section><section><h2>🏪 积分商城兑换排行榜</h2><table><tr><th>#</th><th>商品</th><th>所需积分</th><th>参考价值</th><th style='width:24%'>性价比（每100积分）</th></tr><tr><td>1</td><td>麦乐送免配送费券</td><td>300</td><td>¥6.00</td><td><div style='display:flex;align-items:center;gap:8px'><div class='bar-wrap' style='flex:1'><div class='bar' style='width:100%'></div></div><span>¥2.00</span></div></td></tr><tr><td>2</td><td>圆筒冰淇淋兑换券</td><td>400</td><td>¥6.00</td><td><div style='display:flex;align-items:center;gap:8px'><div class='bar-wrap' style='flex:1'><div class='bar' style='width:75%'></div></div><span>¥1.50</span></div></td></tr><tr><td>3</td><td>麦辣鸡腿堡兑换券</td><td>1,500</td><td>¥21.00</td><td><div style='display:flex;align-items:center;gap:8px'><div class='bar-wrap' style='flex:1'><div class='bar' style='width:70%'></div></div><span>¥1.40</span></div></td></tr><tr><td>4</td><td>巨无霸兑换券</td><td>1,800</td><td>¥23.50</td><td><div style='display:flex;align-items:center;gap:8px'><div class='bar-wrap' style='flex:1'><div class='bar' style='width:65%'></div></div><span>¥1.31</span></div></td></tr><tr><td>5</td><td>薯条（小）兑换券</td><td>600</td><td>¥7.50</td><td><div style='display:flex;align-items:center;gap:8px'><div class='bar-wrap' style='flex:1'><div class='bar' style='width:62%'></div></div><span>¥1.25</span></div></td></tr><tr><td>6</td><td>10元无门槛券</td><td>900</td><td>¥10.00</td><td><div style='display:flex;align-items:center;gap:8px'><div class='bar-wrap' style='flex:1'><div class='bar' style='width:56%'></div></div><span>¥1.11</span></div></td></tr><tr><td>7</td><td>麦门限定帆布袋</td><td>3,200</td><td>¥29.90</td><td><div style='display:flex;align-items:center;gap:8px'><div class='bar-wrap' style='flex:1'><div class='bar' style='width:47%'></div></div><span>¥0.93</span></div></td></tr></table></section><section><h2>🧾 临期券推荐用法（官方算价口径校验）</h2><table><tr><th>优惠券</th><th>剩余</th><th>推荐搭配</th><th>原价</th><th>券后实付</th><th>优惠力度</th></tr><tr><td>麦麦省·圆筒冰淇淋立减6元券</td><td><span class='tag risk'>2 天</span></td><td>圆筒冰淇淋</td><td>¥6.00</td><td><b style='color:#da291c'>¥0.00</b></td><td>100%</td></tr><tr><td>麦麦省·薯条（大）立减8元券</td><td><span class='tag risk'>3 天</span></td><td>薯条（大）</td><td>¥13.50</td><td><b style='color:#da291c'>¥5.50</b></td><td>59%</td></tr><tr><td>麦麦省·板烧鸡腿堡半价券</td><td><span class='tag warn'>6 天</span></td><td>板烧鸡腿堡</td><td>¥19.50</td><td><b style='color:#da291c'>¥9.75</b></td><td>50%</td></tr></table><div class='note'>搭配基于 14 个在售餐品计算，下单前请以 App 内 calculate-price 实时结果为准。</div></section><section><h2>🎁 麦麦省待领取优惠券</h2><table><tr><th>优惠券</th><th>面额</th><th>门槛</th></tr><tr><td>麦麦省·满30减6元券</td><td>¥6.00</td><td>¥30.00</td></tr><tr><td>麦麦省·麦乐送免配送费券</td><td>¥6.00</td><td>无门槛</td></tr><tr><td>麦麦省·早餐咖啡第二杯半价券</td><td>¥7.00</td><td>无门槛</td></tr></table><div class='note'>💡 运行 <code>mcd-asset-butler claim</code> 可一键领取全部麦麦省券。</div></section><div class='footer'>由 <b>mcd-asset-butler</b> 生成 · 基于麦当劳中国官方 MCP Server<br>本报告仅供参考，不构成任何专业建议；餐品、价格与库存以麦当劳官方渠道实时结果为准<br>1024 程序员节 · 麦当劳程序员创意开发大赛参赛作品</div></div></body></html>
